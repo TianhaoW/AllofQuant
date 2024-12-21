@@ -1,6 +1,5 @@
-# All of Quant
+# Table of Content
 
-This is a summary of notes for quantitative finance.
+## Probability
+- [Coin Tossing Sequence](Probability/Coin_Tossing_Sequence.md)
 
-1. Only put files inside a folder once it is complete
-2. Use .md file if there is no code involved
