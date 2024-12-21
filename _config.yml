@@ -1,7 +1,15 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@v4.24.0"
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-paginate
 
 markdown: kramdown
 kramdown:
+  input: GFM
   math_engine: mathjax
+
+# Title of your site
+title: "All of Quantitative Finance"
+description: "A summary of notes for quantitative finance."
