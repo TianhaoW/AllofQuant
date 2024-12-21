@@ -1,10 +1,7 @@
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: mmistakes/minimal-mistakes
 plugins:
 - jekyll-remote-theme
 
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-
-title: [All of Quantitative Finance]
-description: [Short description of this site purpose]
