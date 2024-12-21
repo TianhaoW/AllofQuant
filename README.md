@@ -1,4 +1,5 @@
 # All of Quant
+
 This is a summary of notes for quantitative finance.
 
 1. Only put files inside a folder once it is complete
