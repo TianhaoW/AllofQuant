@@ -1,2 +1,6 @@
 /.idea/
 /.idea/*.xml
+*/*_checkpoints/
+*.rb
+/%USERPROFILE/
+%USERPROFILE/
