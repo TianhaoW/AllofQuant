@@ -19,6 +19,7 @@ sequence or lose all their money.
 Let $X_n^i$ represent the money gambler $i$ has after round $n$. Define:
 
 $$ S_n = \sum_{i=1}^n X_n^i $$
+
 as the total money of all gamblers after round $n$, with $S_0 = 0$. It can be
 shown that $S_n - n$ is a martingale with respect to the natural filtration.
 
@@ -27,7 +28,9 @@ sequence. We can show that $\mathbb{E}[T] < \infty$. By the **Optional Stopping
 Theorem** (or **Wald's Identity**), we have:
 
 $$ \mathbb{E}[S_T - T] = \mathbb{E}[S_0 - 0] = 0. $$
+
 Thus:
+
 $$ \mathbb{E}[T] = \mathbb{E}[S_T]. $$
 
 In this game, when a "lucky" gambler wins the full sequence, all gamblers who
@@ -45,9 +48,7 @@ lose to the actual sequence `HTHH` (the last 4 letters of `HHTHH`). Similarly:
 
 Summing up:
 
-$$
-\mathbb{E}[T] = \mathbb{E}[S_T] = 32 + 4 + 2 = 40.
-$$
+$$\mathbb{E}[T] = \mathbb{E}[S_T] = 32 + 4 + 2 = 40.$$
 
 ---
 
@@ -96,7 +97,7 @@ What is the expected number of tosses until we get the coin sequence `HTH`?
 #### Solution
 
 We follow the same strategy to construct a martingale. We consider the betting
-game with dynamics given by
+game with dynamics given by 
 
 $$
 X_{n+1} =

@@ -2,11 +2,17 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
+highlighter: rouge
+
 markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+  syntax_highlighter_opts:
+    guess_lang: false
 
 # Title of your site
 title: "All of Quantitative Finance"
-description: "A summary of notes for quantitative finance."
+description: "This website serves as a repository for all the materials shared and discussed during our seminar sessions. Contributions are provided by our dedicated seminar members: Tianhao Wang, Xiaokang Wang, Xu Zhuang, and Deepesh Singhal."
+
+# Run [bundle exec jekyll serve] to test the site locally

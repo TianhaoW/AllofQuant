@@ -4,3 +4,6 @@
 *.rb
 /%USERPROFILE/
 %USERPROFILE/
+Gemfile
+Gemfile.lock
+_site
