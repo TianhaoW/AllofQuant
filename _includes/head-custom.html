@@ -1,14 +1,13 @@
-<!-- _includes/head-custom.html -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'] ],  // Use $...$ for inline math
-      displayMath: [ ['$$','$$'] ],  // Use $$...$$ for block math
-      processEscapes: true  // Allow escaping $ with \$ if needed
-    }
-  });
+<script type="text/javascript">
+  MathJax = {
+      tex: {
+          inlineMath: [['$', '$']], // Inline math using $...$
+      },
+      options: {
+          processEscapes: true // Allow escaping special characters
+      }
+  };
 </script>
-
 <script type="text/javascript" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js">
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>

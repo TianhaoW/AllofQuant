@@ -16,16 +16,21 @@ They bet all their money in the current and subsequent rounds, following the
 target coin sequence. A gambler stops betting either when they win the full
 sequence or lose all their money.
 
-Let $X_n^i$ represent the money gambler $i$ has after round $n$. Define:\
+Let $X_n^i$ represent the money gambler $i$ has after round $n$. Define:
+
 $$ S_n = \sum_{i=1}^n X_n^i $$
+
 as the total money of all gamblers after round $n$, with $S_0 = 0$. It can be
 shown that $S_n - n$ is a martingale with respect to the natural filtration.
 
 Define the stopping time $T$ as the first time a gambler wins the entire
 sequence. We can show that $\mathbb{E}[T] < \infty$. By the **Optional Stopping
-Theorem** (or **Wald's Identity**), we have:\
+Theorem** (or **Wald's Identity**), we have:
+
 $$ \mathbb{E}[S_T - T] = \mathbb{E}[S_0 - 0] = 0. $$
+
 Thus:
+
 $$ \mathbb{E}[T] = \mathbb{E}[S_T]. $$
 
 In this game, when a "lucky" gambler wins the full sequence, all gamblers who
@@ -41,10 +46,9 @@ lose to the actual sequence `HTHH` (the last 4 letters of `HHTHH`). Similarly:
   dollars.
 - Finally, the last gambler betting `H` wins $1 \cdot 2 = 2$ dollars.
 
-Summing up:\
-$$
-\mathbb{E}[T] = \mathbb{E}[S_T] = 32 + 4 + 2 = 40.
-$$
+Summing up:
+
+$$\mathbb{E}[T] = \mathbb{E}[S_T] = 32 + 4 + 2 = 40.$$
 
 ---
 
@@ -60,7 +64,8 @@ difference is that a gambler now only has a $1/6$ chance to win in a given
 round. Consequently, $S_n - n$ is no longer a martingale.
 
 To address this, we modify the game rules so that the gambler receives **6 times
-their bet** if they win. Specifically, the dynamics are given by:\
+their bet** if they win. Specifically, the dynamics are given by:
+
 $$
 X_{n+1}^i =
 \begin{cases}
@@ -75,7 +80,8 @@ that $X_n^i$ is a martingale with initial value $1$. Consequently, $S_n - n$
 becomes a martingale centered at zero.
 
 Using this framework, we calculate the expected number of tosses until a gambler
-wins the sequence `111`:\
+wins the sequence `111`:
+
 $$
 \mathbb{E}[T] = \mathbb{E}[S_T] = 6^3 + 6^2 + 6 = 258.
 $$
@@ -91,7 +97,8 @@ What is the expected number of tosses until we get the coin sequence `HTH`?
 #### Solution
 
 We follow the same strategy to construct a martingale. We consider the betting
-game with dynamics given by \
+game with dynamics given by 
+
 $$
 X_{n+1} =
 \begin{cases}
@@ -105,5 +112,6 @@ With this adjustment, we see
 that $\mathbb{E}[X_{n+1} \mid \mathcal{F}_n] = X_n$, and consequently, $S_n-n$
 is again a martingale.
 
-Then, we calculate that \
+Then, we calculate that 
+
 $$\mathbb{E}[T] = \mathbb{E}[S_T] = 5 \cdot 1.25 \cdot 5 + 5 = 36.25$$

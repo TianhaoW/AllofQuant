@@ -6,6 +6,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
+  syntax_highlighter_opts:
+    disable: true
 
 # Title of your site
 title: "All of Quantitative Finance"
