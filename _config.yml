@@ -13,6 +13,12 @@ kramdown:
 
 # Title of your site
 title: "All of Quantitative Finance"
-description: "This website serves as a repository for all the materials shared and discussed during our seminar sessions. Contributions are provided by our dedicated seminar members: Tianhao Wang, Xiaokang Wang, Xu Zhuang, and Deepesh Singhal."
+description: "This website serves as a repository for all the materials shared and discussed during our seminar sessions. Contributions are provided by our dedicated seminar members:  
+Deepesh Singhal,
+<a href=\"https://github.com/QizhiZhao\" style = \"color: white\">Qizhi Zhao</a>,
+<a href=\"https://github.com/TianhaoW\" style = \"color: white\">Tianhao Wang</a>, 
+<a href=\"https://github.com/Mathheadkang\" style = \"color: white\">Xiaokang Wang</a>, 
+<a href=\"https://github.com/zxmath\" style = \"color: white\">Xu Zhuang</a>.
+"
 
 # Run [bundle exec jekyll serve] to test the site locally
