@@ -23,11 +23,13 @@ $$
 
 1. Consider a lattice path from $(0,0)$ to $(2n,0)$. The total number of such paths, without any restrictions, is $\binom{2n}{n}$, as we need to choose $n$ upward steps (or equivalently, downward steps) from $2n$ total steps.
 
-2. Some of these paths dip below the $x$-axis. Reflect any such path at the first point where it touches $y = -1$. The reflected portion creates a path from $(0,0)$ to $(2n,-2)$ with $n-1$ up steps and $n+1$ down steps. 
+2. The invalid paths dip below the $x$-axis. Reflect any such path at the first point where it touches $y = -1$. The reflection creates a path from $(0,0)$ to $(2n,-2)$ with $n-1$ up steps and $n+1$ down steps. 
 
-3. The number of such "invalid" paths is $\binom{2n}{n-1}$, as we are choosing $n-1$ upward steps from $2n$ total steps.
+3. The reflection construction is a bijection between the invalid paths and the lattice path from $(0,0)$ to $(2n, -2)$.
 
-4. Subtracting these invalid paths from the total gives:
+4. The number of such invalid paths is $\binom{2n}{n-1}$, as we are choosing $n-1$ upward steps from $2n$ total steps.
+
+5. Subtracting these invalid paths from the total gives:
 
 $$
 C_n = \binom{2n}{n} - \binom{2n}{n-1}.
