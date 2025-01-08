@@ -43,12 +43,15 @@ $$
 
 #### Ticket Line Problem
 
-**Scenario**: At a theater, $2n$ people are waiting to buy tickets. $n$ of them have only \$5 bills, and the other $n$ have only \$10 bills. Each ticket costs \$5, and the ticket seller has no change initially. What is the probability that all people can buy their tickets without anyone needing to change their position in line?
+**Scenario**: At a theater, $2n$ people are waiting to buy tickets. $n$ of 
+them have only \\$5 bills, and the other $n$ have only \\$10 bills. Each 
+ticket costs \\$5, and the ticket seller has no change initially. What is 
+the probability that all people can buy their tickets without anyone needing to change their position in line?
 
 **Solution**:  
 - Model this situation as a lattice path problem where:
-  - A person with a \$5 bill corresponds to an upward step $(1,1)$,
-  - A person with a \$10 bill corresponds to a downward step $(1,-1)$.
+  - A person with a \\$5 bill corresponds to an upward step $(1,1)$,
+  - A person with a \\$10 bill corresponds to a downward step $(1,-1)$.
 - The requirement that no one needs to change positions translates to ensuring that the lattice path never dips below the $x$-axis.
 
 The number of valid paths is $C_n = \frac{1}{n+1} \binom{2n}{n}$, and the total number of paths (without restrictions) is $\binom{2n}{n}$. Thus, the probability is:
