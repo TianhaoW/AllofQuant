@@ -9,6 +9,10 @@
   - [Catalan Number](Brainteaser/Combinatorics/Catalan_Number.md)
 - **Game Theory**
 - **Number Theory**
+
+## Machine Learning
+- [Linear Regression](MachineLearning/Linear_Regression.md)
+
 ## Math Finance
 
 ## Software Engineer
