@@ -22,3 +22,8 @@
 ## Algorithm and Data Structure
 
 ## External Resources
+- [BrainStellar](https://brainstellar.com/)
+- [Quant Questions](https://quantquestions.io/problems)
+- [OpenQuant](https://openquant.co/)
+- [Quant Trading Interview Questions](https://github.com/mikinty/Trading-Interview-Questions?tab=readme-ov-file)
+  
