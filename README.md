@@ -14,6 +14,7 @@
 - [Linear Regression](MachineLearning/Linear_Regression.md)
 
 ## Math Finance
+- [Risk Preference, Utility Function Convexity, and Jensen's Inequality](Finance/utiliy_and_risk_preference.md)
 
 ## Software Engineer
 - [Git and Github](SoftwareEngineer/Git.md)
