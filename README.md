@@ -3,6 +3,7 @@
 ## Probability
 - [Coin Tossing Sequence](Probability/Coin_Tossing_Sequence.md)
 - [Permutation Related Problems](Probability/Permutation.md)
+- [Monte Carlo Simulation for $\pi$ and $e$](Probability/Monte_Carlo_e_pi.md)
 
 ## Brainteaser
 - **Combinatorics**
