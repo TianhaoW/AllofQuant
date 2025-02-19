@@ -129,3 +129,52 @@ num_simulations = 1000
 print(f"Simulated Expected Number of Cycles: {simulate_cycles(n, num_simulations):.4f}")
 print(f"Analytical Expected Number of Cycles: {harmonic_number(n):.4f}")
 ```
+
+---
+### Expected Number of Stepping Backwards
+
+Suppose there are $n$ people, each assigned a distinct number from $\{1, \dots, n\}$, standing in a line.  
+At the $i$-th step, the person with number $i$ moves to position $i$, and everyone standing behind them steps back by one position.  
+
+Now, suppose I also hold a number. How many steps should I expect to step backward?  
+
+#### Solution  
+
+We observe that this problem is equivalent to finding the expected number of people standing behind me who have a smaller number than mine.  
+
+Let $X$ be a uniform random variable on $\{1, \dots, n\}$ representing the 
+number I hold, and let $\sigma \sim U(S_n)$ be a random permutation 
+represented in one-line form as $(a_1, \dots, a_n)$. Define $N$ as the 
+number of elements after $X$ in the permutation that are smaller than $X$. We claim that  
+
+$$
+\mathbb{E}[N \mid X] = \frac{X-1}{2}.
+$$  
+
+For each $i < X$, define $Y_i \mid X$ as an indicator variable that is 1 if $i$ appears after $X$ in the permutation and 0 otherwise. Then, we can express $N$ as  
+
+$$
+N \mid X = \sum_{i=1}^{X-1} Y_i \mid X.
+$$  
+
+We claim that  
+
+$$
+\mathbb{E}[Y_i \mid X] = \frac{1}{2}.
+$$  
+
+This follows from the fact that there is a bijection between permutations of the form $(\dots i \dots X \dots)$ and permutations of the form $(\dots X \dots i \dots)$. This bijection is obtained by swapping $X$ and $i$ within the permutation.  
+
+Therefore, we obtain  
+
+$$
+\mathbb{E}[N \mid X] = \sum_{i=1}^{X-1} \mathbb{E}[Y_i \mid X] = \sum_{i=1}^{X-1} \frac{1}{2} = \frac{X-1}{2}.
+$$  
+
+Taking expectation over $X$, we get  
+
+$$
+\mathbb{E}[N] = \sum_{a=1}^{n} \mathbb{E}[N \mid X = a] P(X = a) = \frac{1}
+{n} \sum_{a=1}^{n} \frac{a-1}{2} = \frac{n-1}{4}.
+$$  
+

@@ -22,6 +22,9 @@
 - [Python Style Guide](SoftwareEngineer/Style_Guide_Python.md)
 
 ## Algorithm and Data Structure
+- [Data Structure](AlgorithmDataStructure/DataStructure.md)
+- [DFS and BFS](AlgorithmDataStructure/DFS_and_BFS.md)
+- [Prefix Sum](AlgorithmDataStructure/Prefix_Sum.md)
 
 ## External Resources
 - [BrainStellar](https://brainstellar.com/)
