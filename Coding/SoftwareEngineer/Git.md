@@ -55,7 +55,7 @@ git push origin main
 git push origin <your branch name>    
 ```
 
-![git](../imgs/git.png)
+![git](../../imgs/git.png)
 
 ## Branches
 

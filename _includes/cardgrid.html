@@ -1,0 +1,36 @@
+{% if page.cardgrid %}
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline">
+
+      {% for item in site.data.navigation %}
+        {% assign folder = item.link | remove: '/' %}
+        {% assign folder_url = '/' | append: folder | append: '/' %}
+        {% assign index_page = nil %}
+
+        {% for p in site.pages %}
+          {% if p.url == folder_url %}
+            {% assign index_page = p %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if index_page %}
+          <div class="column is-one-third">
+            <a href="{{ index_page.url }}">
+              <div class="card" style="height: 100%;">
+                <div class="card-content">
+                  <div class="content">
+                    {{ index_page.content | markdownify }}
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+{% endif %}

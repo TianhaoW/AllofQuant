@@ -1,8 +1,7 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Run [bundle exec jekyll serve] to test the site locally
 
-highlighter: rouge
+# page build set up
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 
 markdown: kramdown
 kramdown:
@@ -13,14 +12,15 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang: false
 
-# Title of your site
+# site setting
 title: "All of Quantitative Finance"
-description: "This website serves as a repository for all the materials shared and discussed during our seminar sessions. Contributions are provided by our dedicated seminar members:  
+footer_content: "This website serves as a repository for all the materials shared and discussed during our seminar sessions. Contributions are provided by our dedicated seminar members:  
 Deepesh Singhal,
-<a href=\"https://github.com/QizhiZhao\" style = \"color: white\">Qizhi Zhao</a>,
-<a href=\"https://github.com/TianhaoW\" style = \"color: white\">Tianhao Wang</a>, 
-<a href=\"https://github.com/Mathheadkang\" style = \"color: white\">Xiaokang Wang</a>, 
-<a href=\"https://github.com/zxmath\" style = \"color: white\">Xu Zhuang</a>.
-"
+<a href=\"https://github.com/QizhiZhao\">Qizhi Zhao</a>,
+<a href=\"https://tianhaow.github.io\">Tianhao Wang</a>, 
+<a href=\"https://github.com/Mathheadkang\">Xiaokang Wang</a>, 
+<a href=\"https://github.com/zxmath\">Xu Zhuang</a>."
 
-# Run [bundle exec jekyll serve] to test the site locally
+
+# This will always fix the navigation bar at the top
+fixed_navbar: top
