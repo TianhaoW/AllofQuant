@@ -1,3 +1,6 @@
+---
+permalink: /Coding/Prefix_Sum
+---
 # Prefix Sum
 - [Leetcode 303: Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/?envType=problem-list-v2&envId=prefix-sum)
 - [Leetcode 307: Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/description/) 

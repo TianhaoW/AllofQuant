@@ -1,6 +1,5 @@
 ---
-hide_hero: true
-permalink: /Probability/
+permalink: /Probability
 ---
 ## Probability
 - [Coin Tossing Sequence](./Coin_Tossing_Sequence.md)

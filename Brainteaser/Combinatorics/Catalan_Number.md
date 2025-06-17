@@ -1,3 +1,6 @@
+---
+permalink: /Brainteaser/Combinatorics/Catalan_Number
+---
 # Catalan Number
 
 ### Equivalent Definitions of the Catalan Number

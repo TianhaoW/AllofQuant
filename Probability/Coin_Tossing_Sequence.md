@@ -1,3 +1,6 @@
+---
+permalink: /Probability/Coin_Tossing_Sequence
+---
 # Coin Tossing Sequence Problem
 
 ### Fair Coin Sequence

@@ -1,6 +1,5 @@
 ---
-hide_hero: true
-permalink: /Brainteaser/
+permalink: /Brainteaser
 ---
 ## Brainteaser
 ###### Combinatorics

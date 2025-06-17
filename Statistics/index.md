@@ -1,5 +1,4 @@
 ---
-hide_hero: true
-permalink: /Statistics/
+permalink: /Statistics
 ---
 ## Statistics

@@ -1,7 +1,5 @@
 ---
-layout: page
-hide_hero: true
-permalink: /Coding/
+permalink: /Coding
 ---
 ## Software Engineer
 - [Git and Github](./SoftwareEngineer/Git.md)

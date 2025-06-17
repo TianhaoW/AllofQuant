@@ -5,7 +5,7 @@
 
       {% for item in site.data.navigation %}
         {% assign folder = item.link | remove: '/' %}
-        {% assign folder_url = '/' | append: folder | append: '/' %}
+        {% assign folder_url = '/' | append: folder %}
         {% assign index_page = nil %}
 
         {% for p in site.pages %}

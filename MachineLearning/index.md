@@ -1,6 +1,5 @@
 ---
-hide_hero: true
-permalink: /MachineLearning/
+permalink: /MachineLearning
 ---
 ## Machine Learning
 - [Linear Regression](./Linear_Regression.md)
