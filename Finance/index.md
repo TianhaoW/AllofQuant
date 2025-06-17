@@ -1,4 +1,5 @@
 ---
+layout: page
 hide_hero: true
 permalink: /Finance/
 ---

@@ -17,7 +17,7 @@
 
         {% if index_page %}
           <div class="column is-one-third">
-            <a href="{{ index_page.url }}">
+            <a href="{{ index_page.url | relative_url }}">
               <div class="card" style="height: 100%;">
                 <div class="card-content">
                   <div class="content">

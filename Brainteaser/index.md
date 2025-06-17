@@ -3,7 +3,9 @@ hide_hero: true
 permalink: /Brainteaser/
 ---
 ## Brainteaser
-- **Combinatorics**
-  - [Catalan Number](Brainteaser/Combinatorics/Catalan_Number.md)
-- **Game Theory**
-- **Number Theory**
+###### Combinatorics
+- [Catalan Number](./Combinatorics/Catalan_Number.md)
+
+###### Game Theory
+
+###### Number Theory
