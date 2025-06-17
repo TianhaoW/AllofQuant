@@ -1,3 +1,7 @@
+---
+permalink: /MachineLearning/Linear_Regression
+menubar: leftnav
+---
 # Linear Regression
 
 ### Simple Linear Regression

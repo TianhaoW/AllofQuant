@@ -1,3 +1,8 @@
+---
+permalink: /Coding/SoftwareEngineer/Git
+menubar: leftnav
+---
+
 # Git and Github guide
 ## Quick intro
 

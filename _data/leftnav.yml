@@ -1,0 +1,42 @@
+- label: Probability
+  link: /Probability
+  items:
+  - name: Coin Tossing Sequence
+    link: /Probability/Coin_Tossing_Sequence
+  - name: Permutation Related Problems
+    link: /Probability/Permutation
+  - name: Monte Carlo Simulation
+    link: /Probability/Monte_Carlo
+- label: Statistics
+  link: /Statistics
+  items: []
+- label: Brainteaser
+  link: /Brainteaser
+  items:
+  - name: Catalan Number
+    link: /Brainteaser/Combinatorics/Catalan_Number
+- label: Math Finance
+  link: /Finance
+  items:
+  - name: Risk Preference and Utility Function
+    link: /Finance/utiliy_and_risk_preference
+- label: Machine Learning
+  link: /MachineLearning
+  items:
+  - name: Linear Regression
+    link: /MachineLearning/Linear_Regression
+  - name: Principal Component Analysis (PCA)
+    link: /MachineLearning/PCA
+- label: Coding
+  link: /Coding
+  items:
+  - name: Git and Github
+    link: /Coding/SoftwareEngineer/Git
+  - name: Python Style Guide
+    link: /Coding/SoftwareEngineer/Style_Guide_Python
+  - name: Data Structure
+    link: /Coding/DataStructure
+  - name: DFS and BFS
+    link: /Coding/DFS_and_BFS
+  - name: Prefix Sum
+    link: /Coding/Prefix_Sum

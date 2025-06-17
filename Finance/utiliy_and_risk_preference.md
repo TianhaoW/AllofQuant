@@ -1,3 +1,7 @@
+---
+permalink: /Finance/utiliy_and_risk_preference
+menubar: leftnav
+---
 # Risk Preference, Utility Function Convexity, and Jensen's Inequality
 
 ### Risk Preference and the Utility Function

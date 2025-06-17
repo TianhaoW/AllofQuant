@@ -1,0 +1,32 @@
+{% assign current_url = page.url | remove: '.html' | remove: '/' | downcase %}
+
+<aside class="menu">
+  {% for menu in site.data.leftnav %}
+    {% assign section_url = menu.link | remove: '.html' | remove: '/' | downcase %}
+
+    <ul class="menu-list">
+      <li>
+        <a href="{{ menu.link | relative_url }}"
+           class="{% if is_section_active %}is-active{% endif %} menu-label">
+          {{ menu.label }}
+        </a>
+
+        {% if menu.items %}
+          {% if current_url contains section_url %}
+            <ul>
+              {% for item in menu.items %}
+                {% assign item_url = item.link | remove: '.html' | remove: '/' | downcase %}
+                <li>
+                  <a href="{{ item.link | relative_url }}"
+                     class="{% if current_url == item_url %}is-active has-background-primary-light has-text-black{% endif %}">
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        {% endif %}
+      </li>
+    </ul>
+  {% endfor %}
+</aside>

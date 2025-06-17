@@ -1,3 +1,7 @@
+---
+permalink: /Probability/Permutation
+menubar: leftnav
+---
 # Permutation Related Problems
 
 ### Derangement

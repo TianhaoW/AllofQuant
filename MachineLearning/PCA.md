@@ -1,4 +1,8 @@
-# **Principal Component Analysis (PCA)**
+---
+permalink: /MachineLearning/PCA
+menubar: leftnav
+---
+# Principal Component Analysis (PCA)
 
 ## **PCA from a Probabilistic Perspective**  
 Let $\mathbf{X} = (X_1, \ldots, X_k)$ be a random vector, and let $ \Sigma = \mathbb{E}(\mathbf{X}\mathbf{X}^T) $

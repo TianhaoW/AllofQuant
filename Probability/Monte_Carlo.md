@@ -1,3 +1,9 @@
+---
+permalink: /Probability/Monte_Carlo
+menubar: leftnav
+---
+# Monte Carlo Simulation
+
 ### Monte Carlo Simulation for $\pi$
 
 Let $X, Y \sim U[-1,1]$ be independent uniform random variables. Then, we have  

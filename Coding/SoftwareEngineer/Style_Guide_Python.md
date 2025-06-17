@@ -1,3 +1,7 @@
+---
+permalink: /Coding/SoftwareEngineer/Style_Guide_Python
+menubar: leftnav
+---
 # PEP 8 – Style Guide for Python Code
 ## Import
 - Place imports at the top of the file.

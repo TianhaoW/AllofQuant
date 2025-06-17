@@ -1,3 +1,7 @@
+---
+permalink: /Coding/DFS_and_BFS
+menubar: leftnav
+---
 # DFS and BFS
 
 ## BFS

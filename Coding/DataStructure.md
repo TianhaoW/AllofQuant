@@ -1,3 +1,7 @@
+---
+permalink: /Coding/DataStructure
+menubar: leftnav
+---
 # Data Structure
 ## Stack
 - [Leetcode 3174: Clear Digits](https://leetcode.com/problems/clear-digits/description/?envType=daily-question&envId=2025-02-11)
