@@ -1,6 +1,7 @@
 ---
 permalink: /Coding/DFS_and_BFS
 menubar: leftnav
+comments: true
 ---
 # DFS and BFS
 

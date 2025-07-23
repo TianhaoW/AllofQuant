@@ -1,6 +1,7 @@
 ---
 permalink: /Coding/SoftwareEngineer/Git
 menubar: leftnav
+comments: true
 ---
 
 # Git and Github guide

@@ -1,6 +1,7 @@
 ---
 permalink: /Coding/SoftwareEngineer/Style_Guide_Python
 menubar: leftnav
+comments: true
 ---
 # PEP 8 – Style Guide for Python Code
 ## Import

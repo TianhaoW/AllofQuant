@@ -1,6 +1,7 @@
 ---
 permalink: /MachineLearning/Linear_Regression
 menubar: leftnav
+comments: true
 ---
 # Linear Regression
 

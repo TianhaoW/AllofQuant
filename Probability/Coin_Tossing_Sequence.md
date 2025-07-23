@@ -1,6 +1,7 @@
 ---
 permalink: /Probability/Coin_Tossing_Sequence
 menubar: leftnav
+comments: true
 ---
 # Coin Tossing Sequence Problem
 
