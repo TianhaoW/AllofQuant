@@ -21,6 +21,8 @@ Deepesh Singhal,
 <a href=\"https://github.com/Mathheadkang\">Xiaokang Wang</a>, 
 <a href=\"https://github.com/zxmath\">Xu Zhuang</a>."
 
+disqus:
+  shortname: tianhaow-github-io
 
 # This will always fix the navigation bar at the top
 fixed_navbar: top
