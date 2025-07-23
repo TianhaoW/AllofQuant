@@ -1,6 +1,7 @@
 ---
 permalink: /Brainteaser
 menubar: leftnav
+comments: false
 ---
 ## Brainteaser
 ###### Combinatorics

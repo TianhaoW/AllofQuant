@@ -1,6 +1,7 @@
 ---
 permalink: /Coding
 menubar: leftnav
+comments: false
 ---
 ## Software Engineer
 - [Git and Github](./SoftwareEngineer/Git.md)

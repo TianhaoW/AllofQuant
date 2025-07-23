@@ -1,6 +1,7 @@
 ---
 permalink: /Probability
 menubar: leftnav
+comments: false
 ---
 ## Probability
 - [Coin Tossing Sequence](./Coin_Tossing_Sequence.md)

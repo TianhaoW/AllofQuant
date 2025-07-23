@@ -1,7 +1,6 @@
 ---
 permalink: /Probability/Monte_Carlo
 menubar: leftnav
-comments: true
 ---
 # Monte Carlo Simulation
 

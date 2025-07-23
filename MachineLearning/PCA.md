@@ -1,7 +1,6 @@
 ---
 permalink: /MachineLearning/PCA
 menubar: leftnav
-comments: true
 ---
 # Principal Component Analysis (PCA)
 

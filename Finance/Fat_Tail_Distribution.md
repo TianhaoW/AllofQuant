@@ -1,7 +1,6 @@
 ---
 permalink: /Finance/Fat_Tail_Distribution
 menubar: leftnav
-comment: true
 ---
 # Fat-Tailed Distributions in Finance
 

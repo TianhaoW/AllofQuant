@@ -1,7 +1,6 @@
 ---
 permalink: /Probability/Permutation
 menubar: leftnav
-comments: true
 ---
 # Permutation Related Problems
 

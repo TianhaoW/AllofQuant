@@ -1,7 +1,6 @@
 ---
 permalink: /Coding/DataStructure
 menubar: leftnav
-comments: true
 ---
 # Data Structure
 ## Stack

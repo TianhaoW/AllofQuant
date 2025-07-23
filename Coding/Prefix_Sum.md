@@ -1,7 +1,6 @@
 ---
 permalink: /Coding/Prefix_Sum
 menubar: leftnav
-comments: true
 ---
 # Prefix Sum
 - [Leetcode 303: Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/?envType=problem-list-v2&envId=prefix-sum)

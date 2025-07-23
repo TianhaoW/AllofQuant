@@ -3,6 +3,7 @@ layout: page
 title: All of Quantitative Finance
 subtitle: Complete Guide to Quantitative Finance Interviews
 cardgrid: True
+comments: false
 ---
 
 ## External Resources

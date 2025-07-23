@@ -1,7 +1,6 @@
 ---
 permalink: /Brainteaser/Combinatorics/Catalan_Number
 menubar: leftnav
-comments: true
 ---
 # Catalan Number
 
