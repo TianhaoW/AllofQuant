@@ -55,6 +55,11 @@
                 </div>
             </div>
         </section>
+        {% if site.disqus.shortname %}
+            <div class="my-4">
+                {% include disqus.html %}
+            </div>
+        {% endif %}
         {% unless page.hide_footer %}
             {% include footer.html %}
         {% endunless %}
